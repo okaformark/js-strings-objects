@@ -20,3 +20,6 @@ const iAmThirsty =(num)=>{
 printToDom('thirsty', iAmThirsty(55));
 printToDom('thirsty', iAmThirsty(11));
 printToDom('thirsty', iAmThirsty(67));
+
+const quote ='winter is coming';
+console.log(quote.indexOf('is'));
