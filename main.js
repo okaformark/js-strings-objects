@@ -62,10 +62,14 @@ let employee = {
     department: "legal",
     hire_date: "09/22/2010",
     }
+    const answer1= '1. our company lawyer is' + " "+ employee.name;
+    const answer2= employee['name']+ " was hired "+ employee.hire_date;
+    employee.vacation_days = 20;
+    let eom = "employee_of_the_month";
+    
+const employer = ()=>{
+    printToDom('employee', answer1);
+    printToDom('employee', answer2);
+};
+employer();
 
-console.log('our company lawyer is' + " "+ employee.name);
-console.log(employee['name']+ " was hired "+employee.hire_date);
-employee.vacation_days = 20;
-
-let eom = "employee_of_the_month";
-employee[eom] = false;
